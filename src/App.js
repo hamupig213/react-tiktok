@@ -1,10 +1,9 @@
-import { MyCheckbox, MyForm, MyRadio } from "./components/TwoWayBinding";
-import TodoList from "./components/TodoList";
+import { UseEffectDomEvent } from "./components/UseEffectDomEvent";
 
 function App() {
     return (
         <div id="app">
-            <TodoList />
+            <UseEffectDomEvent />
         </div>
     );
 }
